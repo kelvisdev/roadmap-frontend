@@ -26,3 +26,80 @@
   height: 80px;
   display: inline-block;
 }
+
+#borderImg1 {
+  width: 300px;
+  height: 40px;
+  border: 15px solid transparent;
+  padding: 15px;
+  -webkit-border-image: url(../img/border-img.png) 50 round; /* Safari */
+  -o-border-image: url(../img/border-img.png) 50 round; /* Opera */
+  border-image: url(../img/border-img.png) 50 round;
+  display: inline-block;
+}
+
+#borderImg2 {
+  width: 300px;
+  height: 40px;
+  border: 15px solid transparent;
+  padding: 15px;
+  -webkit-border-image: url(../img/border-img.png) 65 stretch; /* Safari */
+  -o-border-image: url(../img/border-img.png) 65 stretch; /* Opera */
+  border-image: url(../img/border-img.png) 65 stretch;
+  display: inline-block;
+}
+
+
+#borderImg3 {
+  width: 300px;
+  height: 40px;
+  border: 15px solid transparent;
+  padding: 15px;
+  -webkit-border-image: url(../img/border-img.png) 20% round; /* Safari */
+  -o-border-image: url(../img/border-img.png) 20% round; /* Opera */
+  border-image: url(../img/border-img.png) 20% round;
+  display: inline-block;
+}
+
+#borderImg4 {
+  width: 300px;
+  height: 40px;
+  border: 15px solid transparent;
+  padding: 15px;
+  -webkit-border-image: url(../img/border-img.png) 30% stretch; /* Safari */
+  -o-border-image: url(../img/border-img.png) 30% stretch; /* Opera */
+  border-image: url(../img/border-img.png) 30% stretch;
+  display: inline-block;
+}
+
+
+#background1 {
+  width: 500px;
+  height: 270px;
+  background-image: url(../img/back2.png), url(../img/back3.png), url(../img/back1.jpg);
+  background-position: left bottom, right bottom, left top;
+  background-size: 92px, cover, cover;
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  display: inline-block;
+}
+
+#background2 {
+  background: 90%;
+  height: 160px;
+  border: 5px solid black;
+  background-image: url(../img/back2.png);  
+  background-size: 52px;
+  background-repeat: no-repeat;
+  background-origin: padding-box; /* Border-box padding-box content-box */
+  display: inline-block;
+}
+
+#background3 {
+  background: 300px;
+  height: 160px;
+  border: 10px solid black;
+  padding: 35px;
+  background: rgb(107, 167, 163);    
+  background-clip: padding-box;
+  display: inline-block;
+}
