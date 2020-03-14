@@ -1,0 +1,11 @@
+// ternario - tres operandos
+const resultado = nota => nota >= 7 ? 'Aprovado' : 'Reprovado'
+
+console.log(resultado(7.1));
+console.log(resultado(6.7));
+
+// ou pode armazena em uma variavel
+const nota = 5
+const status = nota >= 7 ? 'Aprovado' : 'Reprovado'
+console.log(status);
+
