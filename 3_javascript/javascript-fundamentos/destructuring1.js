@@ -25,3 +25,6 @@ console.log(endereco);
 const { endereco: { logradouro, numero, cep } } = pessoa
 console.log(logradouro, numero, cep);
 
+// tem que garantir que um dado esteja aninhado para desestruturar, pq senão vai dar um erro
+const { conta: { ag, conta } } = pessoa
+console.log(ag, conta);
