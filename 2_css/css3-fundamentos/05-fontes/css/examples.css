@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bad+Script|Roboto&display=swap');
+
+@font-face {
+    font-family: 'MyFont';
+    src: url(../fonts/MAGNETOB.TTF);
+}
+
+.font1 {
+    font-family: 'Lobster', cursive;
+}
+
+.font2 {
+    font-family: 'Bad Script', cursive;
+}
+
+.font3 {
+    font-family: 'MyFont';
+}

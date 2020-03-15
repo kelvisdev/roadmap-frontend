@@ -1,0 +1,46 @@
+#text1 {
+  white-space: nowrap;
+  width: 500px;
+  border: 1px solid #000;
+  overflow: hidden;
+  text-overflow: clip;
+}
+
+#text2 {
+  white-space: nowrap;
+  width: 500px;
+  border: 1px solid #000;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#text3 {
+  white-space: nowrap;
+  width: 500px;
+  border: 1px solid #000;
+  overflow: hidden;  
+}
+
+#text3:hover {
+  text-overflow: inherit;
+  overflow: visible;  
+}
+
+#text4 {
+  width: 440px;
+  border: 1px solid #000;
+  /* word-break: keep-all;  // libera fora do maximo */
+  word-break: break-all; /* bloqueia de estourar o maximo */
+}
+
+#text5 {
+  width: 440px;
+  border: 1px solid #000;
+  word-break: keep-all;  /* libera fora do maximo */  
+}
+
+#text6 {
+  width: 440px;
+  border: 1px solid #000;  
+  word-wrap: break-word;
+}
