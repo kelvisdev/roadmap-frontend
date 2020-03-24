@@ -1,0 +1,38 @@
+const pilotos = ['Vettel', 'Alonso', 'Raikkonen', 'Massa']
+pilotos.pop() // massa quebrou o carro, remove o ultimo
+console.log(pilotos);
+
+pilotos.push('Verstappen') // Adiciona elemento no final da array
+console.log(pilotos);
+
+pilotos.shift() // remove o primeiro
+console.log(pilotos); // Vettel saiu da corrida
+
+pilotos.unshift('Hamilton') // Inseri no começa da array
+console.log(pilotos);
+
+// splice pode adicionar e remover elementos
+
+// adicionar 
+pilotos.splice(2, 0, 'Bottas', 'Massa')
+console.log(pilotos);
+
+// remover
+pilotos.splice(3, 1) // massa quebrou novamente :(
+console.log(pilotos);
+
+const algunsPilotos1 = pilotos.slice(2) // slice para extrais um novo array a partir do indice especificado
+console.log(algunsPilotos1);
+
+const algunsPilotos2 = pilotos.slice(1, 4) // extrai elementos do 1 até o indice < 4
+console.log(algunsPilotos2);
+
+
+
+
+
+
+
+
+
+
